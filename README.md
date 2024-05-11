@@ -178,3 +178,61 @@ HTMLの`<picture>`要素と`prefers-color-scheme`メディア機能を組み合�
   <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
+
+URLに追加されたフラグメント(`#gh-dark-mode-only`または`#gh-light-mode-only`)を使うことでテーマに基づいて画像を指定する古い文法は非推奨となり、上記の新しい方法に置き換えられて削除されます。
+
+## リスト
+1つまたは複数行の前に`-`、`*`、または`+`を置くことで、順序なしリストを作成できます。
+```
+- George Washington
+* John Adams
++ Thomas Jefferson
+```
+- George Washington
+* John Adams
++ Thomas Jefferson
+
+リストを順序付けするには、名前の前に数字を置きます。
+```
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+```
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+
+### 入れ子になったリスト
+1つ以上のリストアイテムをほかのアイテムの下にインデントすることで、入れ子になったリストを作成できます。
+
+GitHub上のWebエディター、または[Vidual Studio Code](https://code.visualstudio.com/)のようなモノスペースフォントを使用するテキストエディターを使って、入れ子になったリストを作成するには、リストが揃って見えるように編集できます。
+入れ子になったリスト項目の前に、リストマーカー文字(`-`または`*`)が、その上の項目のテキストの最初の文字の真下に来るまでスペース文字を入力します。 
+```
+1. First list item
+   - First nested list item
+     - Second nested list item
+```
+
+> 注: Webベースのエディターでは、最初に目的の行を強調表示し、次に`Tab`または`Shift`+`Tab`を使用して、1行以上のテキストをインデントまたはデデントできます。
+
+1. First list item
+   - First nested list item
+     - Second nested list item
+
+## タスクリスト
+タスクリストを作成するには、リストアイテムの前に空白、ハイフン、`[ ]`を付けます。
+完了したタスクをマークするには、`[x]`を使います。
+```
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+```
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+タスクリストアイテムの説明がかっこで始まる場合、そのかっこを`\`でエスケープする必要があります。
+```
+- [ ] \(Optional) Open a followup issue
+```
+詳しくは、「[タスクリストについて](https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)」を参照してください。
