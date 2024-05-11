@@ -45,6 +45,10 @@ Text that is not a quote
 
 引用テキストはインデントされ、種類の異なる色で表示されます。
 
+> [!NOTE]
+> 会話を表示するときに、テキストを強調表示して「`R`」と入力することで、コメント内のテキストを自動的に引用符で囲むことができます。・・・をクリックしてコメント全体を引用し、続いて返信を引用します。
+> キーボードショートカットについて詳しくは、「[キーボードショートカット](https://docs.github.com/ja/get-started/accessibility/keyboard-shortcuts)」を参照してください。
+
 ## コードの引用
 単一のバッククォートで文章内のコードやコマンドを引用できます。バッククォート内のテキストはフォーマットされません。また、`ctrl`+`E`キーのキーボードショートカットを押して、Markdown行内にコードブロックのバッククォートを挿入することもできます。
 ```
@@ -90,7 +94,7 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 |RGB|``rgb(R,G,B)``|``rgb(9,105,218)``|`rgb(9,105,218)`|
 |HSL|``hsl(H,S,L)``|``hsl(212,92%,45%)``|`hsl(212,92%,45%)`|
 
->注:
+> [!NOTE]
 > - サポートされているカラーモデルでは、バックティック内の先頭または末尾にスペースを含めることはできません。
 > - 色の視覚化は、issue、pull request、ディスカッション内でのみサポートされます。
 
@@ -105,6 +109,10 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 This site was built using [GitHub Pages](https://pages.github.com/).
 ```
 This site was built using [GitHub Pages](https://pages.github.com/).
+
+> [!NOTE]
+> GitHubでは、コメント中に適正なURLが記述されていれば自動的にリンクが生成されます。
+> 詳しくは、「[自動リンクされた参照とURL](https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)」を参照してください。
 
 ## セクションリンク
 セクションの見出しの上にカーソルを移動させてチェーンマークを表示させることにより、表示されたファイル中のセクションに対して直接リンクできます。
@@ -142,7 +150,9 @@ guidelines for this project](docs/CONTRIBUTING.md)
 GitHubでは、問題へのイメージの埋め込み、プル要求、ディスカッション、コメントと`.md`ファイルがサポートされます。
 リポジトリからイメージを表示したり、オンラインイメージにリンクを追加したり、イメージをアップロードしたりできます。
 詳細については、「[アセットをアップロードする](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#uploading-assets)」を参照してください。
-> 注: リポジトリ内の画像を表示する場合は、絶対リンクではなく相対リンクを使います。
+
+> [!NOTE]
+> リポジトリ内の画像を表示する場合は、絶対リンクではなく相対リンクを使います。
 
 相対リンクを使用して画像を表示する例を以下に示します。
 
@@ -154,7 +164,8 @@ GitHubでは、問題へのイメージの埋め込み、プル要求、ディ�
 |別のリポジトリ内の`.md`ファイル内|`/../../../../github/docs/blob/main/assets/images/electrocat.png`|
 |別のリポジトリ内の問題、プル要求、コメント内|`../../../github/docs/blob/main/assets/images/electrocat.png?raw=true`|
 
-> 注: 上の表の最後の二つの相対リンクは、ビューアーがこれらの画像を含むプライベートリポジトリに少なくとも読み取りアクセス権を持っている場合にのみ、プライベートリポジトリの画像に対して機能します。
+> [!NOTE]
+> 上の表の最後の二つの相対リンクは、ビューアーがこれらの画像を含むプライベートリポジトリに少なくとも読み取りアクセス権を持っている場合にのみ、プライベートリポジトリの画像に対して機能します。
 
 詳細については、「[相対リンク](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links)」を参照してください。
 
@@ -213,7 +224,8 @@ GitHub上のWebエディター、または[Vidual Studio Code](https://code.visu
      - Second nested list item
 ```
 
-> 注: Webベースのエディターでは、最初に目的の行を強調表示し、次に`Tab`または`Shift`+`Tab`を使用して、1行以上のテキストをインデントまたはデデントできます。
+> [!NOTE]
+> Webベースのエディターでは、最初に目的の行を強調表示し、次に`Tab`または`Shift`+`Tab`を使用して、1行以上のテキストをインデントまたはデデントできます。
 
 1. First list item
    - First nested list item
